@@ -1,5 +1,5 @@
-#ifndef SHELL_H
-#define SHELL_H
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -7,6 +7,5 @@
 #include <sys/wait.h>
 #include <sys/types.h>
 
-int add(int a, int b);
 
-#endif /* SHELL_H */
+#endif /* MAIN_H */
