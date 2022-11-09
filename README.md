@@ -1,6 +1,6 @@
 # Creating Our Own Simple Shell
 
-We are creating our self owned simple shell in C language.
+We are creating our simple shell in C language.
 
 
 ![title-pic](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/235/shell.jpeg)
