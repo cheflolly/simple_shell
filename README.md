@@ -56,5 +56,5 @@ This project is a simple version of the linux shell made for Alx SE Program as p
 
 ***
 ## TEAM
-Lolade Lawal | [(https://github.com/cheflolly)]
-Olopade Tolu | [(https://github.com/tolutoon)]
+Lolade Lawal | [<https://github.com/cheflolly>]\
+Olopade Tolu | [<https://github.com/tolutoon>]
