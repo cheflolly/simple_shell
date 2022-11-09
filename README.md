@@ -6,7 +6,7 @@ We are creating our simple shell in C language.
 ![title-pic](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/235/shell.jpeg)
 
 ## What is Shell?
-Shell is a command line interface that takes command from the keyboard and
+Shell is a command line interpreter that takes command from the keyboard and
 gives them to the OS to perform.
 
 ### About this project
