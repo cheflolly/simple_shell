@@ -54,6 +54,40 @@ This project is a simple version of the linux shell made for Alx SE Program as p
  - wait4 (man 2 wait4)
  - write (man 2 write)
 
+### Compilation
+This simple shell is compiled with:
+```
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
+```
+
+### Output
+This program have exact same output as ```sh``` as well as the exact same error output. The only difference is when it prints an error, the name of the program is equivalent to ```argv[0]```.
+
+### Testing
+#### Our shell work like this in interactive mode:
+```
+$ ./hsh
+($) /bin/ls
+hsh main.c shell.c
+($)
+($) exit
+$
+```
+
+#### But also in non-interactive mode:
+```
+$ echo "/bin/ls" | ./hsh
+hsh main.c shell.c test_ls_2
+$
+$ cat test_ls_2
+/bin/ls
+/bin/ls
+$
+$ cat test_ls_2 | ./hsh
+hsh main.c shell.c test_ls_2
+hsh main.c shell.c test_ls_2
+$
+```
 ***
 ## TEAM
 Lolade Lawal | [Github/Cheflolly]\
