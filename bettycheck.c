@@ -1,15 +1,15 @@
 #include "shell.h"
 
 /**
- * add - function tha adds 2 int
- * @a: first integer
- * @b: second integer
- * Description: Function that adds two integers and returns the result
+ * main - code that passes betty check
  *
- * Return: Result to add a and b
+ * Return: 0 on Success.
  */
-
-int add(int a, int b)
+int main(void)
 {
-	return (a + b);
+	int sum;
+
+	sum = add(3, 15);
+	printf("The addition is %d\n", sum);
+	return (0);
 }
