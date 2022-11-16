@@ -10,7 +10,7 @@ Shell is a command line interpreter that takes command from the keyboard and
 gives them to the OS to perform.
 
 ### About this project
-This project is a simple version of the linux shell made for Alx SE Program as part of the low-level programming curriculum.
+This project is a simple version of the linux shell made for Alx SE Program cohort 9 as part of the low-level programming curriculum.
 
 ## Essential Functionalities of the Simple Shell:
 > Displays a prompt and waits for user input.\
